@@ -1,0 +1,1 @@
+# jira-issue-activity-visual-diff
