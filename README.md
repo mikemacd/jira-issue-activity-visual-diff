@@ -6,6 +6,8 @@ the stock side-by-side view.
 
 Available from [the Chrome Store][1].
 
+If you like this, and would like to [tip me][2], I would appreciate it.
+
 License
 -------
 
@@ -25,3 +27,5 @@ License
 
 
  [1]: https://chrome.google.com/webstore/detail/jira-issue-activity-diff/mihfeffigabhhiaehmlcelokmkeancgh?hl=en
+ [2]: http://mikemacd.tip.me/
+
