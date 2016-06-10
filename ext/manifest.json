@@ -1,6 +1,6 @@
 {
     "name": "JIRA Issue Activity Diff",
-    "description": "Replaces the side-by-side issue activity with a unified diff.",
+    "description": "Adds a unified diff to the JIRA activity history view on an issue in addition to the stock side-by-side view.",
     "version": "1.0",
     "manifest_version": 2,
     "page_action": {
@@ -29,5 +29,8 @@
     "options_ui": {
         "page": "options.html",
         "chrome_style": true
+    },
+    "icons": {
+        "128": "icon.png"
     }
 }

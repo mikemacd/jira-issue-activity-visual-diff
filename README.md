@@ -1,7 +1,7 @@
 JIRA Issue Activity Diff
 ========================
 
-Chrome extension that replaces the JIRA activity view on an issue with a unified diff rather than
+Adds a unified diff to the JIRA activity history view on an issue in addition to
 the stock side-by-side view.
 
 Available from [the Chrome Store][1].
@@ -24,4 +24,4 @@ License
     limitations under the License.
 
 
- [1]: TODO:ADDURL
+ [1]: https://chrome.google.com/webstore/detail/jira-issue-activity-diff/mihfeffigabhhiaehmlcelokmkeancgh?hl=en
