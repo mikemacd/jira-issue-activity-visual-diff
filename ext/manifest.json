@@ -1,0 +1,33 @@
+{
+    "name": "JIRA Issue Activity Diff",
+    "description": "Replaces the side-by-side issue activity with a unified diff.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "page_action": {
+        "default_title": "JIRA Issue Activity Diff settings"
+    },
+    "permissions": [
+        "http://*/",
+        "https://*/",
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "jquery-2.2.4.min.js",
+                "diff_match_patch_20121119/javascript/diff_match_patch.js",
+                "JIRA_Issue_Activity_Diff.js"
+            ],
+            "run_at": "document_idle",
+            "all_frames": false
+        }
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    }
+}
