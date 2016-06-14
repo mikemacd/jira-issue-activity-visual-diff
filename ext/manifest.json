@@ -26,6 +26,7 @@
             "all_frames": false
         }
     ],
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
     "options_ui": {
         "page": "options.html",
         "chrome_style": true
