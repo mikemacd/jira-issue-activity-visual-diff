@@ -20,7 +20,8 @@
             "js": [
                 "jquery-2.2.4.min.js",
                 "diff_match_patch_20121119/javascript/diff_match_patch.js",
-                "JIRA_Issue_Activity_Diff.js"
+                "JIRA_Issue_Activity_Diff.js",
+                "google_analytics.js"
             ],
             "run_at": "document_idle",
             "all_frames": false
